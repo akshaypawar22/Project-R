@@ -1,0 +1,98 @@
+* {
+  font-family: "Times New Roman", serif;
+}
+body {
+  background-color: #fffbe9;
+}
+ul {
+  height: 15vh;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 30px;
+  overflow: hidden;
+  background-color: #e3caa5;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  font-size: 23px;
+  color: black;
+  text-align: center;
+  margin-top: 12px;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.active {
+  font-size: 40px;
+  margin-top: -8px;
+}
+.active:hover {
+  color: white;
+}
+li a:hover:not(.active) {
+  color: brown;
+}
+.cardBody {
+  margin-top: 30px;
+}
+.card {
+  margin-bottom: 30px;
+  background-color: #e3caa5;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #ad8b73;
+  color: white;
+}
+
+.twitter {
+  background: #ceab93;
+  color: white;
+}
+
+.google {
+  background: #ad8b73;
+  color: white;
+}
+
+.linkedin {
+  background: #ceab93;
+  color: white;
+}
+
+.youtube {
+  background: #ad8b73;
+  color: white;
+}
+.header {
+  margin-top: 30px;
+  text-align: center;
+}
+.header-text {
+  padding: 10px 60px;
+}

@@ -1,0 +1,174 @@
+.Home-Card {
+  height: 80vh;
+  background-color: #e3caa5;
+  margin: 20px 60px;
+  border: #ffefd8 solid 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.degree {
+  background-color: #ad8b73;
+  padding: 20px;
+  margin: 40px 80px;
+}
+.desc {
+  padding: 0px 30px 0px 80px;
+}
+.Hero-Img {
+  margin: 40px 100px 0px 50px;
+}
+.myImg {
+  width: 230px;
+  border: 2px solid #fff;
+  background: url(Media/doc-Hero.jpg) no-repeat;
+  box-shadow: 10px 10px 5px #ad8b73;
+  -moz-box-shadow: 10px 10px 5px #ad8b73;
+  -webkit-box-shadow: 10px 10px 5px #ad8b73;
+  -khtml-box-shadow: 10px 10px 5px #ad8b73;
+}
+.EduHead {
+  text-align: center;
+  margin: 20px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+/*** Table Styles **/
+.table {
+  margin: 20px 0px;
+}
+.table-fill {
+  background: white;
+  border-radius: 3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 80vw;
+  padding: 5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+
+th {
+  color: #d5dde5;
+  background: #ad8b73;
+  border-bottom: 4px solid #8e705a;
+  border-right: 1px solid #8e705a;
+  font-size: 23px;
+  font-weight: 100;
+  padding: 24px;
+  text-align: left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+}
+
+th:first-child {
+  border-top-left-radius: 3px;
+}
+
+th:last-child {
+  border-top-right-radius: 3px;
+  border-right: none;
+}
+
+tr {
+  border-top: 1px solid #8e705a;
+  border-bottom: 1px solid #8e705a;
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+  background: #4e5066;
+  color: #ffffff;
+  border-top: 1px solid #8e705a;
+}
+
+tr:first-child {
+  border-top: none;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+tr:nth-child(odd) td {
+  background: #e3caa5;
+}
+
+tr:nth-child(odd):hover td {
+  background: #4e5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 3px;
+}
+
+td {
+  background: #ffffff;
+  padding: 20px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #8e705a;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left,
+td.text-left {
+  text-align: left;
+}
+
+th.text-center,
+td.text-center {
+  text-align: center;
+}
+
+th.text-right,
+td.text-right {
+  text-align: right;
+}
+.HeadExp {
+  text-align: center;
+  margin: 20px;
+}
+.expCard {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 5px 16px;
+}
+.ExpIcon {
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.card {
+  border-radius: none;
+}
