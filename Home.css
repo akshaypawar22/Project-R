@@ -144,10 +144,11 @@ td.text-right {
 }
 .HeadExp {
   text-align: center;
+  margin: 20px;
 }
 .expCard {
   height: auto;
-  padding: 10px 60px;
+  padding: 0 60px;
 }
 .expCard1 {
   display: flex;
@@ -174,4 +175,20 @@ td.text-right {
 .expDesc {
   margin: 20px 50px;
   font-size: 20px;
+}
+.achivement {
+  height: auto;
+}
+.Achi-Head {
+  margin: 20px 0;
+  text-align: center;
+}
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 30px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
 }
