@@ -1,5 +1,5 @@
 .Home-Card {
-  height: 500px;
+  height: auto;
   background-color: #e3caa5;
   margin: 20px 60px;
   border: #ffefd8 solid 5px;
@@ -13,9 +13,12 @@
 }
 .desc {
   padding: 0px 30px 0px 80px;
+  margin-bottom: 20px;
+  /* vertical-align: middle;
+  display: table-cell; */
 }
 .Hero-Img {
-  margin: 40px 100px 0px 50px;
+  margin: 40px 100px 40px 50px;
 }
 .myImg {
   width: 230px;
@@ -172,3 +175,4 @@ td.text-right {
 .card {
   border-radius: none;
 }
+
